@@ -1,38 +1,216 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  background-color: black;
+  background-image: url(https://president.ismcdn.jp/mwimgs/e/e/1024wmn/img_ee89118e2ab61cefe645111243a21248324239.jpg);
 }
 
-.App-link {
-  color: #61dafb;
+
+#myInput {
+  background-image: url('https://img.icons8.com/cotton/2x/search--v2.png');
+  background-size: 20px 20px;
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 15px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.filter {
+  height: 49px;
+  width: 140px;
 }
+
+.top-stuff {
+  margin-top: 30px;
+}
+
+
+.header {
+  height: 40px
+}
+
+ul.nav {
+  background-image: url(https://images.unsplash.com/photo-1516797045820-6edca89b2830?ixlib=rb-1.2.1&w=1000&q=80);
+  /* background-image: url(https://www.gannett-cdn.com/-mm-/3b8b0abcb585d9841e5193c3d072eed1e5ce62bc/c=0-30-580-356/local/-/media/2018/09/11/USATODAY/usatsports/getty-stock-market-rising_large.jpg?width=580&height=326&fit=crop&format=pjpg&auto=webp); */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  float: right;
+  width: 100%;
+  opacity: 0.8;
+}
+
+ul.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.logout-button {
+  margin-top: 14px;
+  background-color: black;
+  color: white
+}
+
+.logo {
+  float: left;
+  width:3%;
+  display: flex;
+  margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+.pending-table {
+  /* text-align: center; */
+  width: 100%;
+  background-color: crimson;
+  margin-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  flex-direction: row;
+  opacity: 0.9;
+}  
+
+.pending-card {
+  height: 30%;
+  width: 40%;
+  margin: auto;
+  margin-top: 10px;
+  
+}
+
+.filed-table {
+  width: 100%;
+  background-color: darkblue;
+  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  flex-direction: row;
+  opacity: 0.9;
+
+}
+
+.filed-card {
+  height: 30%;
+  width: 40%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.buy-volume {
+  color: green
+}
+
+.sell-volume {
+  color: red
+}
+
+
+.tables {
+  background-color: darkgoldenrod;
+  background-image: url(https://www.sankeibiz.jp/images/news/200408/mcb2004081700027-p1.jpg);
+}
+
+
+
+.stock-list {
+  margin-left: 125px;
+  display: flex;
+  /* flex-direction: row;
+   */
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.cardd {
+  height: 30%;
+  width: 20%;
+  margin: 20px;
+  opacity: 0.8;
+}
+
+
+.user-box {
+  background-color: darkviolet;
+  margin-top: 20px;
+  opacity: 0.8;
+  text-align: left;
+}
+
+.profile-greeting {
+  margin-top: 20px;
+  opacity: 0.8;
+}
+
+.user-profile {
+  background-image: url(https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2012/wall-street-4847634_1920_0_2_3.jpg);
+}
+
+.transaction-title {
+  color: black;
+  background-color: blanchedalmond;
+  width: 300px
+}
+
+
+.login-page {
+  background-image: url(https://eskipaper.com/images/black-wallpaper-26.jpg);
+  background-size: cover;
+  width: 1300px;
+  height: 650px;
+  background-position: top;
+}
+
+
+.login-form {
+  height: 1000px;
+  width: 1000px;
+}
+
+.form-box {
+  margin-top: 130px;
+}
+
+.stock-show {
+  text-align: left;
+  opacity: 0.8;
+}
+
+.stock-show-page {
+  background-image: url(https://st3.depositphotos.com/1144687/17115/i/1600/depositphotos_171155724-stock-photo-digital-dollar-sign-wallpaper.jpg);
+}
+
+.buy-form {
+  background-color: darkslategray;
+  width: 100%;
+  margin-top: 20px;
+  opacity: 0.8;
+
+}
+
+.sell-form {
+  background-color: darkviolet;
+  width: 100%;
+  margin-top: 20px;
+  opacity: 0.8;
+
+}
+

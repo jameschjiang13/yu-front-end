@@ -1,5 +1,10 @@
 body {
+  height: 100vh;
+  width: 100vw;
   margin: 0;
+  align-items: center;
+  background-color: black;
+  background-image: url(https://www.sankeibiz.jp/images/news/200408/mcb2004081700027-p1.jpg);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +16,5 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+

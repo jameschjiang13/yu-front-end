@@ -162,6 +162,7 @@ ul.nav li a {
 
 .user-profile {
   background-image: url(https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2012/wall-street-4847634_1920_0_2_3.jpg);
+  height: 700px;
 }
 
 .transaction-title {

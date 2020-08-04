@@ -37,7 +37,7 @@ export default class BuyForm extends Component {
     render() {
         return (
             <div class="buy-form">
-                Create Buy Order
+                Create Buy Order/Limit Order
                 <form onSubmit={this.handleSubmit}>
                     <label>
                         Name: {this.props.stockName}

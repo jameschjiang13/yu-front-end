@@ -38,7 +38,7 @@ export default class SellForm extends Component {
     render() {
         return (
             <div class="sell-form">
-                Create Sell Order
+                Create Sell Order/Stop Order
                 <form onSubmit={this.handleSubmit}>
                     <label>
                         Name: {this.props.stockName}
